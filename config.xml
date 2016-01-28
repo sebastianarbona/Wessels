@@ -2,7 +2,7 @@
 <widget id="com.core.wessels" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Wessels Catalogo</name>
     <description>
-        Catálgoo de Productos de Wessels Autopartes para Revendedores. 
+        Catálogo de Productos de Wessels Autopartes para Revendedores. 
     </description>
     <author email="mobile@grupocore.net" href="http://www.grupocore.net">
         Grupo Core Team
