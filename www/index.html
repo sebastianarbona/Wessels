@@ -1,0 +1,42 @@
+<html>
+    <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.css" />
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+		
+		<script src="js/jquery-1.9.1.min.js"><!--  --></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"><!-- --></script>
+	    <script src="js/bootstrap.min.js"><!--  --></script>
+	    <title>Wessels Autopartes</title>
+    </head>
+    <body onclick="abrir()" style="min-height: 100%">
+        <div class="app" style="padding-top: 0px">
+        	<img src="img/logo.jpg" width="90%;" />
+            <h1>Wessels Autopartes</h1>
+            <div id="deviceready" class="blink" >
+                <p class="event listening">Connecting to Device</p>
+                <p class="event received">Device is Ready</p>
+            </div>
+            <button id="carrito" type="button">
+ 				<strong>Ir al carrito</strong>
+			</button>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+        	window.open("http://www.wesselsautopartes.com/", '_system');
+
+        	function abrir(){
+        		window.open("http://www.wesselsautopartes.com/", '_system');
+            }
+        	
+			$("#carrito").on("click",function(event) {
+				event.preventDefault();
+				window.open("http://www.wesselsautopartes.com/", '_system');
+            });
+        });
+        </script>
+    </body>
+</html>
